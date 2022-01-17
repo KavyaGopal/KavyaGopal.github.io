@@ -728,7 +728,9 @@ p {
 }
 
 .journal-block .journal-info img {
-  max-width: 100%;
+  width: 100%;
+  height: 15vw;
+  object-fit: cover;
 }
 
 .journal-block .journal-info .journal-txt {
@@ -1074,6 +1076,12 @@ blockquote {
 
   #about .div-img-bg {
     padding: 0;
+  }
+
+  .img-card {
+    width: 100%;
+    height: 15vw;
+    object-fit: cover;
   }
 
   #about .div-img-bg .about-img img {
